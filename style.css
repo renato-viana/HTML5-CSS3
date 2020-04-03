@@ -252,6 +252,24 @@ td, th {
     margin: 2em auto;
 }
 
+@media screen and (max-width: 480px) { 
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position:static;
+    }
+
+    .lista-beneficios, imagem-beneficios {
+        width: 100%
+    }
+}
+
 /*Seletores avançados*/
 /*
 coletamos todos os parágrafos que estão dentro da <main>
