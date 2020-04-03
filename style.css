@@ -34,8 +34,10 @@ nav a {
 
 nav a:hover {
     color: #C78C19;
-    text-decoration: underline; 
+    text-decoration: underline;
 }
+
+/*CSS da página produtos*/
 
 .produtos {
     width: 940px;
@@ -84,18 +86,22 @@ nav a:hover {
 
 footer {
     text-align: center;
-    background: url("images/bg.jpg");    
+    background: url("images/bg.jpg");
     padding: 40px 0;
 }
 
 .copyright {
     color: #FFFFFF;
     font-size: 13px;
-    margin: 20px 0 0 ;
+    margin: 20px 0 0;
 }
 
+/*CSS da página contato*/
+
 main {
-   
+    width: 940px;
+    margin-left: 10px;
+
 }
 
 form {
@@ -149,10 +155,11 @@ thead {
 
 td, th {
     border: 1px solid #000000;
-    padding: 8px 15px ;
+    padding: 8px 15px;
 }
 
 /* CSS da página inicial*/
+
 .banner {
     width: 100%;
 }
@@ -167,10 +174,10 @@ td, th {
 }
 
 .principal {
-   padding: 3em 0;
-   background: #FEFEFE ;
-   width: 940px;
-   margin: 0 auto;
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
 }
 
 .principal p {
@@ -188,7 +195,7 @@ td, th {
 .utensilios {
     width: 120px;
     float: left;
-    margin: 0 20px 20px 0;   
+    margin: 0 20px 20px 0;
 }
 
 .mapa {
@@ -252,25 +259,23 @@ td, th {
     margin: 2em auto;
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 480px) {
     .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
         width: auto;
     }
-
     h1 {
         text-align: center;
     }
-
     nav {
-        position:static;
+        position: static;
     }
-
     .lista-beneficios, imagem-beneficios {
         width: 100%
     }
 }
 
 /*Seletores avançados*/
+
 /*
 coletamos todos os parágrafos que estão dentro da <main>
 main p {
